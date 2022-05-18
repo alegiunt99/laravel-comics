@@ -5,13 +5,5 @@
 @endsection
 
 @section('content')
-    <ul>
-        <li><a href="/">Ciao</a></li>
-        <li><a href="/">Ciao</a></li>
-        <li><a href="/">Ciao</a></li>
-        <li><a href="/">Ciao</a></li>
-        <li><a href="/">Ciao</a></li>
-        <li><a href="/">Ciao</a></li>
-        <li><a href="/">Ciao</a></li>
-    </ul>
+    <div>@dump($comics)</div>
 @endsection

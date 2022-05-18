@@ -15,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
 
-    return view('home');
+    $comics = @include "../config/comics.php";
     
+    return view('home', ["comics" => $comics]);
+
 });
