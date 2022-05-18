@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return '<h1>DC COMICS</h1>';
-    // view('welcome');
+
+    return view('home');
+    
 });
