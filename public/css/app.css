@@ -10,6 +10,14 @@
   margin: 0 auto;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
 header .container {
   display: flex;
   justify-content: space-between;
@@ -31,7 +39,6 @@ header .container .nav-bar {
 
 header .container .nav-bar .nav-link a {
   color: black;
-  text-decoration: none;
 }
 
 header .container .nav-bar .nav-link:hover {
@@ -41,5 +48,93 @@ header .container .nav-bar .nav-link:hover {
 
 header .container .nav-bar .nav-link:hover a {
   color: rgb(2, 130, 249);
+}
+
+footer #links-footer {
+  padding: 50px 0px;
+  background-color: rgb(63, 63, 63);
+}
+
+footer #links-footer .container {
+  display: flex;
+}
+
+footer #links-footer .container .links-box {
+  display: flex;
+  width: 46%;
+  flex-wrap: wrap;
+}
+
+footer #links-footer .container .links-box .links-item {
+  width: 33.3333333333%;
+}
+
+footer #links-footer .container .links-box .links-item p {
+  font-size: 18px;
+  color: white;
+}
+
+footer #links-footer .container .links-box .links-item ul {
+  line-height: 20px;
+}
+
+footer #links-footer .container .links-box .links-item ul li a {
+  text-decoration: none;
+  color: gray;
+  font-size: 14px;
+}
+
+footer #links-footer .container .links-box .links-item ul li a:hover {
+  color: white;
+}
+
+footer #bottom-footer {
+  padding: 25px 0px;
+  background-color: #303030;
+}
+
+footer #bottom-footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer #bottom-footer .container .subsribe-button button {
+  background-color: transparent;
+  border: 2px solid #0282f9;
+  font-size: 14px;
+  padding: 10px;
+  color: white;
+}
+
+footer #bottom-footer .container .subsribe-button button:hover {
+  background-color: rgb(104, 104, 104);
+  cursor: pointer;
+}
+
+footer #bottom-footer .container .social-networks {
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+
+footer #bottom-footer .container .social-networks .follow-us p {
+  color: #1277eb;
+}
+
+footer #bottom-footer .container .social-networks .social-icons {
+  display: flex;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+}
+
+footer #bottom-footer .container .social-networks .social-icons .social-button img {
+  width: 85%;
+}
+
+footer #bottom-footer .container .social-networks .social-icons .social-button img:hover {
+  cursor: pointer;
+  width: 90%;
 }
 

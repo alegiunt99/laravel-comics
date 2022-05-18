@@ -13,6 +13,13 @@
     margin: 0 auto;
 }
 
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
 // content
 
 
@@ -38,7 +45,7 @@ header{
             .nav-link{
                     a{
                         color: black;
-                        text-decoration: none;
+                        
                     }
                     &:hover{
                     border-bottom: 3px solid rgb(2, 130, 249);
@@ -52,4 +59,91 @@ header{
             }
         }
       }
+}
+
+
+// ********************************* FOOTER *************************************
+footer{
+    #links-footer{
+        padding: 50px 0px;
+        
+        background-color: rgb(63, 63, 63);
+        .container{
+          display: flex;
+          .links-box{
+            display: flex;
+            width: 46%;
+            flex-wrap: wrap;
+            .links-item{
+              width: calc(100% / 3);
+              p{
+                font-size: 18px;
+                color: white;
+              }
+              ul{
+                line-height: 20px;
+                li{
+                  a{
+                    text-decoration: none;
+                    color: gray;
+                    font-size: 14px;
+                    &:hover{
+                      color: white;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    
+    
+    
+      #bottom-footer{
+        padding: 25px 0px;
+        background-color: #303030;
+        .container{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .subsribe-button{
+            button{
+              background-color: transparent;
+              border: 2px solid #0282f9;
+              font-size: 14px;
+              padding: 10px;
+              color: white;
+              &:hover{
+                background-color: rgb(104, 104, 104);
+                cursor: pointer;
+              }
+            }
+          }
+          .social-networks{
+            display: flex;
+            align-items: center;
+            column-gap: 10px;
+            .follow-us{
+              p{
+                color: #1277eb;
+              }
+            }
+            .social-icons{
+              display: flex;
+              column-gap: 5px;
+              .social-button{
+                img{
+                  width: 85%;
+                  &:hover{
+                    cursor: pointer;
+                    width: 90%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    
 }
