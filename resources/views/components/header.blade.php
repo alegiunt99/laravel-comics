@@ -23,4 +23,8 @@
 
     </div>
     
-  </header>
+</header>
+
+  <!-- Jumbotron -->  
+<div class="jumbotron">
+</div>
